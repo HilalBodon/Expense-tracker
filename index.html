@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jquery table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class=" main-container">
+        <div class="header">
+            <h1>Expenses</h1>
+        </div>
+        <div class="tab-row">
+            <div class="input">
+                <input type="text" class="" placeholder="Enter Expence" id="expence" />
+            </div>
+            <div class="input">
+                <input type="number" placeholder="Enter Amount" id="amount" />
+            </div>
+
+            <div class="input">
+                <input type="button" id="btnAdd" class="" value="Add New Expense" />
+            </div>
+        </div>
+        <div class="table-div">
+            <div class="table-sub-div">
+                <table id="tblData" class="">
+                    <thead id="thead">
+                        <tr>
+                            <th>Number</th>
+                            <th>EXPENSE</th>
+                            <th>AMOUNT</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"> 
+                    </tbody>
+                </table>
+             <div id="total-div">Total Amount: $<span id="totalAmount">0.00</span></div>
+            </div>
+        </div>
+    </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>

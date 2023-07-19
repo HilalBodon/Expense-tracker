@@ -1,0 +1,124 @@
+.header{
+  background-color: #0FA3B1;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 15px;
+
+}
+
+.tab-row{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 5vh;
+  margin: 5vh;
+  
+  
+}
+
+.input input{
+  border-radius: 15px;
+  background-color: rgb(184, 207, 210);
+  width: 30vh;
+  height:8vh;
+  border:0;
+  font-weight: 500;
+  padding-left: 10px; 
+}
+
+#btnAdd{
+  border-radius: 15px;
+  background-color: rgb(255, 180, 19);
+  border:0;
+  width: 25vh;
+  height:8vh;
+  color: rgb(79, 79, 79);
+  font-weight: 600;
+}
+.main-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+
+
+.table-div{
+  display :flex ;
+  justify-content: center;
+  gap:10px;
+width: 100%;
+border-radius: 15px;
+
+
+}
+
+.table-sub-div{
+  /* background-color: rgb(118, 158, 171); */
+  width: 90%;
+  border-radius: 15px;
+  
+
+}
+
+
+#tbody{
+background-color: rgb(121, 173, 189);
+
+
+}
+
+#tblData{
+  color: rgb(59, 59, 59);
+width: 100%;
+height: 15vh;
+background-color: aliceblue;
+
+
+
+
+}
+#thead{
+  background-color: #0FA3B1;
+  color: aliceblue;
+  height: 7vh;
+
+
+  
+  }
+
+
+  tr  {
+    font-size: larger;
+    border-radius: 5px;
+    height: 50px;
+    padding: 20px;
+  }
+
+  tr button{
+    background-color: rgb(255, 180, 19); 
+    color: rgb(79, 79, 79);
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    height: 6vh;
+
+  }
+  tr th, tr td{
+    border-radius: 10px;
+    padding-left: 2vh;
+
+  }
+
+  #total-div{
+    height: 20px;
+    background-color: rgb(255, 180, 19); 
+    border-radius: 15px;
+    padding: 15px;
+    
+  }
